@@ -16,7 +16,7 @@
 #
 
 server:
-  port: 12345
+  port: 10005
   servlet:
     session:
       timeout: 120m

@@ -39,7 +39,7 @@ spring:
       initialization-fail-timeout: 1
 
 server:
-  port: 50053
+  port: 10003
 
 management:
   endpoints:
@@ -60,7 +60,7 @@ management:
       application: ${spring.application.name}
 
 alert:
-  port: 50052
+  port: 10004
   # Mark each alert of alert server if late after x milliseconds as failed.
   # Define value is (0 = infinite), and alert server would be waiting alert result.
   wait-timeout: 0
